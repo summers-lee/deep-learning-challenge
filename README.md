@@ -14,6 +14,7 @@ SPECIAL_CONSIDERATIONS—Special considerations for application
 ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectively
 
+
 Overview 
 Analysis is to use machine learning and to help find and select the best applicants to fund through our nonprofit. It is shown in the column IS_SUCCESSFUL if the received funding and this is the target variable. The non-relevant columns are EIN and names, while every other column is a feature variable. The feature variables show relevant information about the data and could be used to help predict the target variables, while non-relevant variables are dropped from the dataset to help avoid excess noise and confusion from the model.
 Results
